@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>林森羽的树洞</title>
+    <style>
+        body {
+            background-color: black;
+            color: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Times New Roman', serif;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(148, 0, 211, 0.5);
+            animation: fadeIn 2s forwards;
+            animation-delay: 1s;
+            position: absolute;
+            z-index: 1; /* 设置字体在最上层 */
+        }
+
+        @keyframes fadeIn {
+            to {
+                color: #556B2F;
+            }
+        }
+
+        img {
+            animation: fadeInImage 2s forwards;
+            position: relative;
+            z-index: 0; /* 设置图片在较低层 */
+        }
+
+        @keyframes fadeInImage {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>“欢迎来到林森羽的树洞”</h1>
+<img src="https://th.bing.com/th/id/R.59f6b2aa691d360e3aa31950010327c2?rik=T08aphUBF%2fSpQw&riu=http%3a%2f%2fpic.616pic.com%2fbg_w1180%2f00%2f06%2f69%2fqam6kFmkyW.jpg!%2ffw%2f1120&ehk=BM8%2b%2bFNzLFOC2pJ3YOCT32bb1qNxa9IMXj31FWXzY%2fo%3d&risl=&pid=ImgRaw" alt="图片"/>
+
+</body>
+</html>
